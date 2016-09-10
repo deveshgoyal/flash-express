@@ -1,0 +1,36 @@
+{
+  "name": "flash-express",
+  "version": "1.0.1",
+  "description": "Express.js flash notifications that can work with any template engine",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deveshgoyal/flash-express.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notify",
+    "express",
+    "express-flash",
+    "flash",
+    "flash-express",
+    "express-notify",
+    "flash",
+    "notification",
+    "toast",
+    "node",
+    "node-flash"
+  ],
+  "author": {
+    "name": "deveshgoyal",
+    "email": "me@deveshgoyal.com"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/deveshgoyal/flash-express/issues"
+  },
+  "homepage": "https://github.com/deveshgoyal/flash-express#readme"
+}
