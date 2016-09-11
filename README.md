@@ -121,7 +121,7 @@ default type is success. The following code will generate success flash
 #option
 option define the behaviour of the flash.  
 
-`Postion` will define the position of the flash. You can define 8 different position.  
+`Position` will define the position of the flash. You can define 8 different position.  
 Posible values can be :-  
 
 tr - top-right (default)  
@@ -138,7 +138,7 @@ t  - top
 ```javascript
     app.get('/', function (req, res) {
       var option = {
-        postion:"t",
+        position:"t",
         duration:"1500"
       };
       res.flash('Flash Message Added',option);
