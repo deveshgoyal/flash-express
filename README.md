@@ -58,7 +58,7 @@ In case of html/hbs
 ##Parameters
 
 #Text/message
-it can be ant text is `string` format
+it can be any text is `string` format
 
 #Type
 
