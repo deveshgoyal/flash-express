@@ -8,9 +8,10 @@ module.exports = function() {
 			res.setHeader('Content-Type', 'application/javascript');
 			res.writeHead(200);
 			res.end(clientSource);
+		}else{
+			res.flash = push;
+			next();
 		}
-		res.flash = push;
-		next();
 	}
 }
 
