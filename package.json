@@ -1,5 +1,6 @@
 {
   "name": "flash-express",
+  "version": "1.0.4",
   "description": "Express.js flash notifications that can work with any template engine.",
   "main": "index.js",
   "repository": {
