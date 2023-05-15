@@ -1,4 +1,5 @@
 "use strict";
+
 var read = require('fs').readFileSync;
 var clientSource = read(__dirname + '/lib/flash-client.js', 'utf-8');
 
@@ -33,7 +34,6 @@ function push(text, type, option) {
 	value.option = extend(defaultOption, opts);
 	var random = Math.random().toString(32).slice(2, 6);
 	this.cookie("flash-" + random, JSON.stringify(value));
-	//console.log(defaultOption)
 	return this;
 }
 
